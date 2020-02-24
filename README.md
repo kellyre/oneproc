@@ -11,5 +11,5 @@ if not myproc.lock_pid():
     print(myproc.errmsg)
     sys.exit(1)
 else:
-    print("Got the lock:", myprod.pid)
+    print("Got the lock:", myproc.pid)
     # Do stuff...
